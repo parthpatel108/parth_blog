@@ -43,6 +43,16 @@ const DomContent = () => (
           <span style={{marginTop:-10,paddingLeft:10}}> Balasinor, Guj, India</span>
         </li>
         <li className={`${style.contactBlockItem}`}>
+          <span><FeatherIcon size="19" icon="phone" /></span>
+          <span style={{marginTop:-10,paddingLeft:10}}> <a
+            href="tel:+918511977824"
+            target="_top"
+          >
+          <span className="emailHider">       +91-8511977824 </span>
+          </a></span>
+
+        </li>
+        <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
           <span style={{marginTop:-10,paddingLeft:10}}> <a
             href="mailto:parthdptl@gmail.com"
