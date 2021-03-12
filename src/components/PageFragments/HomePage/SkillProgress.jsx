@@ -3,7 +3,7 @@ import { Row, Col } from 'antd';
 import ProgressBar from '../../Progress';
 
 const SkillsProgress = () => (
-  <div>
+  <div style={{marginTop:20}}>
     <h2>My Skills</h2>
     <Row gutter={[20, 20]}>
       <Col xs={24} sm={24} md={12}>
@@ -13,22 +13,30 @@ const SkillsProgress = () => (
           text="Javascript"
         />
         <ProgressBar
-          percent={95}
+          percent={60}
           text="ReactJS"
         />
         <ProgressBar
-          percent={85}
+          percent={70}
           text="Gatsby"
         />
         <ProgressBar
-          percent={90}
+          percent={80}
           text="NodeJS"
+        />
+         <ProgressBar
+          percent={80}
+          text="Selenium with JAVA"
         />
       </Col>
       <Col xs={24} sm={24} md={12}>
+      <ProgressBar
+          percent={90}
+          text="Html/CSS"
+        />
         <ProgressBar
-          percent={70}
-          text="Python"
+          percent={80}
+          text="Android"
         />
         <ProgressBar
           percent={90}
@@ -39,8 +47,8 @@ const SkillsProgress = () => (
           text="MongoDB"
         />
         <ProgressBar
-          percent={80}
-          text="Wordpress"
+          percent={90}
+          text="PHP"
         />
       </Col>
     </Row>

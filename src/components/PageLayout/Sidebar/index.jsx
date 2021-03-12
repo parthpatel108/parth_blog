@@ -35,31 +35,22 @@ const DomContent = () => (
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
-          <span>
-            <FeatherIcon size="19" icon="calendar" />
-            &nbsp; &nbsp; Aug 18,1997
-          </span>
-
+          <span><FeatherIcon size="19" icon="calendar" /></span>
+          <span style={{marginTop:-10,paddingLeft:10}}>Aug 18,1997</span>
         </li>
         <li className={`${style.contactBlockItem}`}>
-          <span><FeatherIcon size="19" icon="map-pin" />
-          &nbsp; &nbsp; Balasinor, Guj, India
-          </span>
-
-
+          <span><FeatherIcon size="19" icon="map-pin" /></span>
+          <span style={{marginTop:-10,paddingLeft:10}}> Balasinor, Guj, India</span>
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
-         
-&nbsp; &nbsp;
-          <a
+          <span style={{marginTop:-10,paddingLeft:10}}> <a
             href="mailto:parthdptl@gmail.com"
             target="_top"
           >
-            <span className="emailHider">
-              &nbsp; parthdptl@gmail.com
-          </span>
-          </a>
+          <span className="emailHider">       parthdptl@gmail.com </span>
+          </a></span>
+
         </li>
       </ul>
       {/* <div className={style.resumeDownload}>

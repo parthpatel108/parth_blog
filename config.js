@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
+  siteUrl: 'https://parth-official.netlify.app/',
   siteTitle: 'Parth Patel',
   siteDescription: 'Logbook of a software developer',
   author: 'Parth Patel',
@@ -11,17 +11,17 @@ module.exports = {
     home: '/',
     blog: 'blog',
     contact: 'contact',
-    resume: 'resume',
+    // resume: 'resume',
     tag: 'tags',
   },
   social: {
-    github: 'https://github.com/rolwin100',
-    facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
+    github: 'https://github.com/parthpatel108',
+    facebook: 'https://www.facebook.com/parth.patel.dev.official',
+    twitter: 'https://twitter.com/Parth_Android',
+    instagram: 'https://www.instagram.com/parth.patel.dev.official/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: 'https://getform.io/f/c50fcc3b-7171-44d8-b1db-1f9299490093',
   googleAnalyticTrackingId: 'G-9W1WHR4HFG',
   tags: {
     javascript: {
