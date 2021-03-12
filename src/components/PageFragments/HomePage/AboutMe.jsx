@@ -27,7 +27,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Parth', 'Patel', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -42,15 +42,15 @@ const AboutMe = () => {
             height={60}
             alt="location image"
             textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            textH3="Balasinor, Guj, India"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="coffee.png"
             alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            textH4="Love Tea"
+            textH3="Tea + Me = Happiness"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -61,14 +61,14 @@ const AboutMe = () => {
             textH3="At times"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        {/* <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="motorcycle.png"
             alt="motorcycle image"
             textH4="Love Riding"
             textH3="Biker for life"
           />
-        </Col>
+        </Col> */}
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="web.png"
@@ -83,8 +83,8 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            textH4="Pursued BE in"
+            textH3="Computer Engineering"
             height={60}
             width={60}
           />
