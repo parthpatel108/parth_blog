@@ -37,24 +37,28 @@ const DomContent = () => (
         <li className={`${style.contactBlockItem}`}>
           <span>
             <FeatherIcon size="19" icon="calendar" />
-            {' '}
+            &nbsp; &nbsp; Aug 18,1997
           </span>
-&nbsp; &nbsp; Aug 18,1997
+
         </li>
         <li className={`${style.contactBlockItem}`}>
-          <span><FeatherIcon size="19" icon="map-pin" /></span>
-          {' '}
-&nbsp; &nbsp; Balasinor, Guj, India
+          <span><FeatherIcon size="19" icon="map-pin" />
+          &nbsp; &nbsp; Balasinor, Guj, India
+          </span>
+
+
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
-          {' '}
+         
 &nbsp; &nbsp;
           <a
             href="mailto:parthdptl@gmail.com"
             target="_top"
           >
-          &nbsp; parthdptl@gmail.com
+            <span className="emailHider">
+              &nbsp; parthdptl@gmail.com
+          </span>
           </a>
         </li>
       </ul>
@@ -89,11 +93,11 @@ const Sidebar = (props) => {
         <Content className={`${style.content} ${style.background}`}>
           <Row>
             <Col sm={24} md={9} lg={6} className={style.sidebarContent}>
-              { domContent }
+              {domContent}
             </Col>
             <Col sm={24} md={15} lg={18}>
               <Layout className={`${style.background} ${style.boxContent} borderRadiusSection`}>
-                { children }
+                {children}
               </Layout>
             </Col>
           </Row>

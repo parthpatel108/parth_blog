@@ -22,7 +22,7 @@ module.exports = {
     rss: '/rss.xml',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
-  googleAnalyticTrackingId: 'G-YKJKV5F7HK',
+  googleAnalyticTrackingId: 'G-9W1WHR4HFG',
   tags: {
     javascript: {
       name: 'javascript',
