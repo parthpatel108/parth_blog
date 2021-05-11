@@ -720,4 +720,5 @@ const EventsGrid = props => {
   )
 }
 
-export default withURLSyncEvents(EventsGrid)
+export default (EventsGrid)
+// export default withURLSyncEvents(EventsGrid)
