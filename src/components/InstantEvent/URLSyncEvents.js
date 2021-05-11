@@ -97,9 +97,9 @@ const searchStateToURL = (searchState) => {
       searchState.menu && searchState.menu["node.month"],
   };
 
-  const { protocol, hostname, port = "", pathname, hash } = window.location;
+  const { protocol, hostname, port = "", pathname, hash } =location;
   const portWithPrefix = port === "" ? "" : `:${port}`;
-  const urlParts = window.location.href.match(/^(.*?)\/search/);
+  const urlParts =location.href.match(/^(.*?)\/search/);
   const baseUrl =
     (urlParts && urlParts[0]) ||
     `${protocol}//${hostname}${portWithPrefix}${pathname}search`;
