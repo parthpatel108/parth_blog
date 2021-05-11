@@ -303,7 +303,7 @@ const urlToSearchState = (location) => {
 const withURLSyncEvents = (EventsGrid) =>
   class WithURLSync extends Component {
     state = {
-      searchState: urlToSearchState(window.location),
+      searchState: urlToSearchState(location),
     };
 
     componentDidMount() {
