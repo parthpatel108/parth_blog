@@ -62,7 +62,7 @@ function getCategoryName(slug) {
     .replace(/\//g, " > ");
 }
 
-const searchStateToURL = (searchState) => {
+const searchStateToURL = (searchState,location) => {
   const routeState = {
     query: searchState.query,
     page: String(searchState.page),
@@ -303,7 +303,7 @@ const urlToSearchState = (location) => {
 const withURLSyncEvents = (EventsGrid) =>
   class WithURLSync extends Component {
     state = {
-      searchState: urlToSearchState(location),
+      searchState: urlToSearchState(this.props.location),
     };
 
     componentDidMount() {
@@ -328,7 +328,7 @@ const withURLSyncEvents = (EventsGrid) =>
         window.history.pushState(
           searchState,
           null,
-          searchStateToURL(searchState)
+          searchStateToURL(searchState,this.props.location)
         );
       }, updateAfter);
 

@@ -22,7 +22,7 @@ export default (props) => {
         <>
           <AboutMe />
           <Skills />
-          <InstantEvent dataset={dataset} />
+          <InstantEvent location={props.location} dataset={dataset} />
           {console.log(props)}
         </>
       </SidebarWrapper>
