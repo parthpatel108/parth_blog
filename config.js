@@ -6,7 +6,7 @@ module.exports = {
   author: 'Parth Patel',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT || 0,
   pages: {
     home: '/',
     blog: 'blog',

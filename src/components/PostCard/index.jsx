@@ -5,6 +5,7 @@ import style from './postCard.module.less';
 import Utils from '../../utils/pageUtils';
 
 const PostCard = (props) => {
+  console.log(props);
   const { data: { node: { frontmatter } } } = props;
 
   return (
